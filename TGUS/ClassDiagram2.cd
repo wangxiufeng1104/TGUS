@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TGUS.Designer" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lAQICAQBiCAAigEBAACABQADgBCAAIBAAACEBgAACAI=</HashCode>
+      <FileName>Designer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Display" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAABACAAAgQAQASEAACCABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Display.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.DrawBase" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAACAAA=</HashCode>
+      <FileName>DrawBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.DrawRectangle" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAgAABAAAAAAIABgAAACAAA=</HashCode>
+      <FileName>DrawRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.DrawSelect">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TGUS.DrawSelect.SelectionMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DrawSelect.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQACAAAiAAAAAAAAAAAACAAABgAAAAAIAAAAAACAAA=</HashCode>
+      <FileName>DrawSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Engineering_attribute_Form" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAADAAAACkAABACAACAGAICAAAAAAAAACAAAIEBAAA=</HashCode>
+      <FileName>Engineering_attribute_Form .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Images_Form" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhCAEAAAgKAAAAIBAECAEBgKQAAhBAAAAAAhkEQEBAA=</HashCode>
+      <FileName>Images_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.ItemBase">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAACAIIBAAgAgEACCAAQgAAgQMACBCQQAAghAABI=</HashCode>
+      <FileName>ItemBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TGUS.ItemList">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAACgAAgAAAAAgAAAIAAAAAEAIAABAAAAAAAA=</HashCode>
+      <FileName>ItemList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.ItemRectangle">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACACIBAAgAgEAACACQgAAAyAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ItemRectangle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TGUS.Main_Form" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3AZAIUYBcKaEACsEEOijRFGSUQQAAgS4A7YxQdTGYgg=</HashCode>
+      <FileName>Main_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Program" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.RenamePicture" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAACAAAAAAAACAAAACIgAAAAAgAQAAQAAAAAA=</HashCode>
+      <FileName>RenamePicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Screen_Attribute" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAACAAABQAYACAAAACUAAAAAAAICAAAAEAAAA=</HashCode>
+      <FileName>Screen_Attribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Serial_Input" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAECEAAACgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serial_Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Serial_out" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAECEAAACIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serial_out.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Touch" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>////dUr4uT5/d7v3x5n33///u//6////9y+8vf//Nro=</HashCode>
+      <FileName>Touch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Welcome" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAUAAAAAASAAAAAAAAyEAAACAAAAAAAAACABAABIAwA=</HashCode>
+      <FileName>Welcome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Properties.Resources" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TGUS.Properties.Settings" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TGUS.PIC_Obj" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAQQACAAwEEAQQAACCAAAAAACAEBAAAAAg=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

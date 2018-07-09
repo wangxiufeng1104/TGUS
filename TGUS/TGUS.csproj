@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEC469F5-845B-4E9D-9D37-C02EC00F1DD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TGUS</RootNamespace>
+    <AssemblyName>TGUS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Project15.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin">
+      <HintPath>res\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\packages\DockPanelSuite.2.15.0\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2013">
+      <HintPath>..\packages\DockPanelSuite.ThemeVS2013.2.15.0\lib\net40\WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InformClass.cs" />
+    <Compile Include="button_pic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="button_pic.Designer.cs">
+      <DependentUpon>button_pic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoicePicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoicePicture.Designer.cs">
+      <DependentUpon>ChoicePicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comm.cs" />
+    <Compile Include="Custom_baudrateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom_baudrateForm.Designer.cs">
+      <DependentUpon>Custom_baudrateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecNumberTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DecNumberTextBox.Designer.cs">
+      <DependentUpon>DecNumberTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Designer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Designer.Designer.cs">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawBase.cs" />
+    <Compile Include="DrawRectangle.cs" />
+    <Compile Include="DrawSelect.cs" />
+    <Compile Include="Engineering_attribute_Form .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engineering_attribute_Form .Designer.cs">
+      <DependentUpon>Engineering_attribute_Form .cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForbidDecimaNumericUpDownl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ForbidDecimaNumericUpDownl.Designer.cs">
+      <DependentUpon>ForbidDecimaNumericUpDownl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetIconFile.cs" />
+    <Compile Include="HardWare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HardWare.Designer.cs">
+      <DependentUpon>HardWare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HexNumberTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HexNumberTextBox.Designer.cs">
+      <DependentUpon>HexNumberTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageConvert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageConvert.Designer.cs">
+      <DependentUpon>ImageConvert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Images_Form.Designer.cs">
+      <DependentUpon>Images_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Image_Area_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Image_Area_Setting.Designer.cs">
+      <DependentUpon>Image_Area_Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemBase.cs" />
+    <Compile Include="ItemList.cs" />
+    <Compile Include="ItemRectangle.cs" />
+    <Compile Include="KeyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyCode.Designer.cs">
+      <DependentUpon>KeyCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language_Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Language_Set.Designer.cs">
+      <DependentUpon>Language_Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Note.Designer.cs">
+      <DependentUpon>Note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenamePicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RenamePicture.Designer.cs">
+      <DependentUpon>RenamePicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen_Attribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen_Attribute.Designer.cs">
+      <DependentUpon>Screen_Attribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serial_Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serial_Input.Designer.cs">
+      <DependentUpon>Serial_Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serial_out.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serial_out.Designer.cs">
+      <DependentUpon>Serial_out.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serial_Setup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serial_Setup.Designer.cs">
+      <DependentUpon>Serial_Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Touch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Touch.Designer.cs">
+      <DependentUpon>Touch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="button_pic.resx">
+      <DependentUpon>button_pic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoicePicture.resx">
+      <DependentUpon>ChoicePicture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom_baudrateForm.resx">
+      <DependentUpon>Custom_baudrateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DecNumberTextBox.resx">
+      <DependentUpon>DecNumberTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer.resx">
+      <DependentUpon>Designer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engineering_attribute_Form .resx">
+      <DependentUpon>Engineering_attribute_Form .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HardWare.resx">
+      <DependentUpon>HardWare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HexNumberTextBox.resx">
+      <DependentUpon>HexNumberTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageConvert.resx">
+      <DependentUpon>ImageConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images_Form.resx">
+      <DependentUpon>Images_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image_Area_Setting.resx">
+      <DependentUpon>Image_Area_Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyCode.resx">
+      <DependentUpon>KeyCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language_Set.resx">
+      <DependentUpon>Language_Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Note.resx">
+      <DependentUpon>Note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenamePicture.resx">
+      <DependentUpon>RenamePicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen_Attribute.resx">
+      <DependentUpon>Screen_Attribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serial_Input.resx">
+      <DependentUpon>Serial_Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serial_out.resx">
+      <DependentUpon>Serial_out.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serial_Setup.resx">
+      <DependentUpon>Serial_Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Touch.resx">
+      <DependentUpon>Touch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Project15.ico" />
+    <None Include="res\滑动刻度指示.png" />
+    <None Include="res\旋转图标2.png" />
+    <None Include="res\艺术字.png" />
+    <None Include="res\拖动调节.jpg" />
+    <None Include="res\增量调节2.png" />
+    <None Include="res\增量调节.jpg" />
+    <None Include="res\图标旋转png.png" />
+    <None Include="res\弹出菜单.png" />
+    <None Include="Resources\图标23.bmp" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="res\BaseTouch.png" />
+    <None Include="res\DataVar.png" />
+    <None Include="res\DataVar1.png" />
+    <None Include="res\BaseTouch1.png" />
+    <None Include="res\ClockDisplay.png" />
+    <None Include="res\DataInput.png" />
+    <None Include="Resources\Green.bmp" />
+    <None Include="Resources\Green.png" />
+    <None Include="res\Aqua Ball Green.png" />
+    <None Include="res\Aqua Ball Red.png" />
+    <None Include="Resources\refersh.jpg" />
+    <None Include="res\EN.png" />
+    <None Include="res\BasicGra.png" />
+    <Content Include="res\Fileclose.png" />
+    <Content Include="res\File_new.png" />
+    <Content Include="res\File_open.png" />
+    <Content Include="res\File_print.png" />
+    <Content Include="res\File_quick_print.png" />
+    <Content Include="res\File_Save_as.png" />
+    <Content Include="res\File_share.png" />
+    <Content Include="res\File_temporary.png" />
+    <None Include="res\keycode.jpg" />
+    <None Include="res\lpt-plug.png" />
+    <None Include="res\GBK.png" />
+    <Content Include="res\new.png" />
+    <None Include="res\RTC.jpg" />
+    <None Include="res\RTC1.jpg" />
+    <None Include="res\refersh%28已去底%29.jpg" />
+    <None Include="res\RTCEN.png" />
+    <None Include="res\RTCZH.png" />
+    <None Include="res\RTCEN1.png" />
+    <None Include="res\RTCEN2.png" />
+    <None Include="res\RTCset.png" />
+    <Content Include="res\save.png" />
+    <None Include="res\TextDisplay.png" />
+    <None Include="res\二维码.png" />
+    <None Include="res\动画图标.png" />
+    <None Include="res\动画图标1.png" />
+    <None Include="res\TouchState.png" />
+    <Content Include="res\图标23.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

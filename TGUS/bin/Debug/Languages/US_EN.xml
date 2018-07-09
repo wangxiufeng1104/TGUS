@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TGUS>
+  <Main_Form name="Main_Form">
+	<But_replicate>replicate</But_replicate>
+    <But_ZoomIn>ZoomIn</But_ZoomIn>
+    <But_ZoomOut>ZoomOut</But_ZoomOut>
+    <toolStripButton2>Bring Layer to Front</toolStripButton2>
+    <toolStripButton7>Send Layer to Back</toolStripButton7>
+    <toolStripButton6>move up</toolStripButton6>
+    <toolStripButton4>move down</toolStripButton4>
+    <But_BaseTouch>BaseTouch</But_BaseTouch>
+    <But_DataVar>DataVar</But_DataVar>
+    <But_IconVar>IconVar</But_IconVar>
+    <But_TextDisplay>TextDisplay</But_TextDisplay>
+    <But_RTCDisplay>RTC</But_RTCDisplay>
+    <But_VarInput>VarInput</But_VarInput>
+    <But_ReturnValue>ReturnValue</But_ReturnValue>
+    <But_QR_Code>QR_Code</But_QR_Code>
+    <But_PopMenu>PopMenu</But_PopMenu>
+    <But_ActionIcon>ActionIcon</But_ActionIcon>
+    <But_IncreaseAdj>IncreaseAdj</But_IncreaseAdj>
+    <But_DragAdj>DragAdj</But_DragAdj>
+    <But_FunChar>Art Char</But_FunChar>
+    <But_Slide>Slide</But_Slide>
+    <But_IconRotation>IconRotation</But_IconRotation>
+    <But_ClockDisplay>ClockDisplay</But_ClockDisplay>
+	<But_GBK>GBK Input</But_GBK>
+	<But_ASCII>ASCII Input</But_ASCII>
+	<But_TouchState>Press state</But_TouchState>
+	<But_RTCset>Set RTC</But_RTCset>
+	<But_BasicGra>Basic Graphic</But_BasicGra>
+    <But_New>New(&amp;N)</But_New>
+    <But_Open>Open(&amp;O)</But_Open>
+    <But_Save>Save(&amp;S)</But_Save>
+    <But_Resolution>Resolution(&amp;R)</But_Resolution>
+    <But_HardConfige>Hardware Setting(&amp;H)</But_HardConfige>
+    <But_ConfigFile>Generate Configuration (&amp;G)</But_ConfigFile>
+    <But_Language>Language(&amp;L)</But_Language>
+    <But_ExportInformation>Export VP(&amp;E)</But_ExportInformation>
+    <But_SaveAs>Save As(&amp;A)</But_SaveAs>
+    <But_IconCreat>Icon file generation(&amp;I)</But_IconCreat>
+    <But_DownLoadtoSD>Load to SD(&amp;D)</But_DownLoadtoSD>
+	<But_Help>Help</But_Help>
+	<But_Plaster>Plaster</But_Plaster>
+  </Main_Form>
+	<Touch_Form name="Touch">
+	<IncreaseAdj_KeyMode num0="Continuous Adjustment" num1="Step Adjustment">
+	</IncreaseAdj_KeyMode>
+	<label143>Key Effect</label143>
+	<label142>Upper Limit</label142>
+	<label141>Lower Limit</label141>
+	<label140>Adjusting step length</label140>
+	<IncreaseAdj_ReturnMode num0="STOP" num1="CYCLE">
+	</IncreaseAdj_ReturnMode>
+	<label139>Overrun</label139>
+	<IncreaseAdj_AdjMode num0="--" num1="++">
+	</IncreaseAdj_AdjMode>
+	<label133>Regulating Mode</label133>
+	<IncreaseAdj_DataAutoUpLoad>Automatic data upload</IncreaseAdj_DataAutoUpLoad>
+	<IncreaseAdj_LabBItNum>Write Bit 0X</IncreaseAdj_LabBItNum>
+	<IncreaseAdj_CheckList num0="Write by word" num1="Write High Byte" num2="Write Low Byte" num3="Write Bit">
+	</IncreaseAdj_CheckList>
+	<panel1>
+	</panel1>
+	<label132>VP(0x)</label132>
+	<groupBox31>
+	</groupBox31>
+	<IncreaseAdj_ButtonEffectCheck>No Key Effect</IncreaseAdj_ButtonEffectCheck>
+	<IncreaseAdj_ButtonEffectSelect>Select</IncreaseAdj_ButtonEffectSelect>
+	<groupBox38>Key Effect</groupBox38>
+	<panel8> 
+	</panel8>
+	<label134>H</label134>
+	<label135>W</label135>
+	<label136>Y</label136>
+	<label137>X</label137>
+	<groupBox39>Location</groupBox39>
+	<label138>Name</label138>
+	<GBox_IncreaseAdj>Incremental Regulation</GBox_IncreaseAdj>
+	<DataInput_DisplayLocationSelect>Set</DataInput_DisplayLocationSelect>
+	<DataInput_KeyBoardPosition num0="Current Page" num1="Other Page">
+	</DataInput_KeyBoardPosition>
+	<DataInput_CursorColor num0="Black" num1="White">
+	</DataInput_CursorColor>
+	<DataInput_DisplayStyle num0="Show“*”" num1="Direct Indication">
+	</DataInput_DisplayStyle>
+	<label124>load data</label124>
+	<label123>VP(0x)</label123>
+	<DataInput_InputLoadDataCheck>Loading data during entry</DataInput_InputLoadDataCheck>
+	<groupBox28>
+	</groupBox28>
+	<label121>Lower Limit</label121>
+	<label122>Upper Limit</label122>
+	<DataInput_DataLimiteCheck> Range restriction</DataInput_DataLimiteCheck>
+	<groupBox27>
+	</groupBox27>
+	<DataInput_KeyboardShowLocationSet>Set</DataInput_KeyboardShowLocationSet>
+	<label120>Display Position</label120>
+	<label119>Keyboard Area</label119>
+	<label118>Page Num</label118>
+	<DataInput_KeyBoardSet>Keyboard Set</DataInput_KeyBoardSet>
+	<groupBox26>
+	</groupBox26>
+	<label117>Keyboard Location</label117>
+	<label116>Input display mode</label116>
+	<label115>Cursor Color</label115>
+	<label114>Font Size</label114>
+	<label113>Font Lib</label113>
+	<label112>Show Color</label112>
+	<label111>Show Position</label111>
+	<label110>Decimal Digits</label110>
+	<label109>Integer Digits</label109>
+	<DataInput_VarType num0="Short" num1="Int" num2="High Byte" num3="Low Byte" num4="Long">
+	</DataInput_VarType>
+	<label108>Var Type</label108>
+	<label103>VP(0x)</label103>
+	<DataInput_PageChangeCheck>No page switching</DataInput_PageChangeCheck>
+	<DataInput_PageChangeSelect>Select</DataInput_PageChangeSelect>
+	<groupBox24>Page Switching</groupBox24>
+	<DataInput_ButtonEffectCheck>No Key Effect</DataInput_ButtonEffectCheck>
+	<DataInput_ButtonEffectSelect>Select</DataInput_ButtonEffectSelect>
+	<groupBox25>Key Effect</groupBox25>
+	<DataInput_DataAutoUpload>Automatic data upload</DataInput_DataAutoUpload>
+	<label102>Name</label102>
+	<datainput_pa>
+	</datainput_pa>
+	<label104>H</label104>
+	<label105>W</label105>
+	<label106>Y</label106>
+	<label107>X</label107>
+	<groupBox29>Location</groupBox29>
+	<GBox_VarInput>Input variables</GBox_VarInput>
+	<label201>Initial Value</label201>
+	<label189>VP_mode</label189>
+	<IconRotation_VPMode num0="Point to the integer" num1="Point to high byte" num2="Point to low byte">
+	</IconRotation_VPMode>
+	<label190>Terminate rotation Angle</label190>
+	<label193>Initial rotation Angle</label193>
+	<label191>Terminate rotation Angle</label191>
+	<label192>Start rotation Angle</label192>
+	<label194>Icon rotation center</label194>
+	<label195>Show Mode</label195>
+	<IconRotation_DisplayMode num0="Transparent" num1="Show Background">
+	</IconRotation_DisplayMode>
+	<IconRotation_IconIDSelect>Select</IconRotation_IconIDSelect>
+	<label196>Icon ID</label196>
+	<IconRotation_IconFile>
+	</IconRotation_IconFile>
+	<label197>Icon File</label197>
+	<label198>VP(0x)</label198>
+	<label199>SP(0x)</label199>
+	<panel12>
+	</panel12>
+	<label200>H</label200>
+	<label202>W</label202>
+	<label203>Y</label203>
+	<label204>X</label204>
+	<groupBox37>Location</groupBox37>
+	<label205>Name</label205>
+	<GBox_IconSpin>Icon Rotation Indicator</GBox_IconSpin>
+	<label184>Initial Value</label184>
+	<SlideDisplay_VPDataMode num0="Point to the integer" num1="Point to high byte" num2="Point to low byte">
+	</SlideDisplay_VPDataMode>
+	<label183>Var Type</label183>
+	<label182>(X)Coordinate forward offset</label182>
+	<SlideDisplay_IconMode num0="Transparent" num1="Show Background">
+	</SlideDisplay_IconMode>
+	<label181>Show Mode</label181>
+	<SlideDisplay_IconIDSelect>Select</SlideDisplay_IconIDSelect>
+	<label180>Slide icon</label180>
+	<SlideDisplay_IconLib>
+	</SlideDisplay_IconLib>
+	<label179>Icon File</label179>
+	<SlideDisplay_Mode num0="Transverse scale" num1="Lengthways scale">
+	</SlideDisplay_Mode>
+	<label173>Scale Mode</label173>
+	<label171>Terminates variable scale</label171>
+	<label175>Initial variable scale</label175>
+	<label176>VP(0x)</label176>
+	<label177>SP(0x)</label177>
+	<panel9>
+	</panel9>
+	<label178>H</label178>
+	<label185>W</label185>
+	<label186>Y</label186>
+	<label187>X</label187>
+	<groupBox41>Location</groupBox41>
+	<label188>Name</label188>
+	<GBox_SlideDisplay>Slide scale indicator</GBox_SlideDisplay>
+	<label158>Initial Value</label158>
+	<ArtFont_Align num0="alignleft" num1="alignright">
+	</ArtFont_Align>
+	<label157>Align</label157>
+	<label156>Decimal Digits</label156>
+	<label150>Integer Digits</label150>
+	<ArtFont_VarType num0="Short(2 bytes)" num1="Int(4 bytes)" num2="*VP High Byte" num3="*VP Low Byte" num4="Long(8 Bytes)" num5="Ushort(2 Bytes)" num6="Uint(4 Bytes)">
+	</ArtFont_VarType>
+	<label149>Var Type</label149>
+	<ArtFont_ShowMode num0="Transparent" num1="Show Background">
+	</ArtFont_ShowMode>
+	<label148>Show Mode</label148>
+	<ArtFont_BeginIconSelect>Select</ArtFont_BeginIconSelect>
+	<label147>Start Icon</label147>
+	<ArtFont_IconFile>
+	</ArtFont_IconFile>
+	<label144>Icon File</label144>
+	<label145>VP(0x)</label145>
+	<label146>SP(0x)</label146>
+	<panel10>
+	</panel10>
+	<label151>H</label151>
+	<label152>W</label152>
+	<label153>Y</label153>
+	<label154>X</label154>
+	<groupBox40>Location</groupBox40>
+	<label155>Name</label155>
+	<GBox_ArtFont>Art Font</GBox_ArtFont>
+	<label168>End position value</label168>
+	<label169>Begain position value</label169>
+	<SlideAdj_AdjMode num0="Horizontal drag" num1="Vertical drag">
+	</SlideAdj_AdjMode>
+	<label160>Drag Mode</label160>
+	<SlideAdj_DataReturnMode num0="Write Word" num1="Write High" num2="Write Low">
+	</SlideAdj_DataReturnMode>
+	<label167>Data return format</label167>
+	<groupBox14>Drag Mode</groupBox14>
+	<label166>VP(0x)</label166>
+	<SlideAdj_DataAutoUpLoad>Automatic data upload</SlideAdj_DataAutoUpLoad>
+	<panel11>
+	</panel11>
+	<label161>H</label161>
+	<label162>W</label162>
+	<label163>Y</label163>
+	<label164>X</label164>
+	<groupBox43>Location</groupBox43>
+	<label165>Name</label165>
+	<GBox_SlideAdj>Drag control</GBox_SlideAdj>
+	<ActionIcon_ShowMode num0="Transparent" num1="Show Background">
+	</ActionIcon_ShowMode>
+	<label62>Show Mode</label62>
+	<ActionIcon_StartIDSelect>Select</ActionIcon_StartIDSelect>
+	<label63>Start Icon ID</label63>
+	<label131>Start Value</label131>
+	<label79>Stop Value</label79>
+	<ActionIcon_IconFile>
+	</ActionIcon_IconFile>
+	<ActionIcon_EndIDSelect>Select</ActionIcon_EndIDSelect>
+	<label64>Finish Icon ID</label64>
+	<ActionIcon_StopIDSelect>Select</ActionIcon_StopIDSelect>
+	<label70>Stop Icon ID</label70>
+	<label71>Icon File</label71>
+	<label72>Initial Value</label72>
+	<label73>VP(0x)</label73>
+	<label74>SP(0x)</label74>
+	<label75>Name</label75>
+	<label76>H</label76>
+	<label77>W</label77>
+	<label78>Y</label78>
+	<label80>X</label80>
+	<groupBox30>Location</groupBox30>
+	<GBox_ActionIcon>Action Icon</GBox_ActionIcon>
+	<PopupMenu_WriteBit>Write Bit 0X</PopupMenu_WriteBit>
+	<PopupMenu_CheckList num0="Write by word" num1="Write High Byte" num2="Write Low Byte" num3="Write Bit">
+	</PopupMenu_CheckList>
+	<PopupMenu_VarAddressPanel>
+	</PopupMenu_VarAddressPanel>
+	<label125>VP(0x)</label125>
+	<PopupMenu_VarAddressGroup>
+	</PopupMenu_VarAddressGroup>
+	<PopupMenu_MenuPositionSet>Set</PopupMenu_MenuPositionSet>
+	<label66>Show Position</label66>
+	<label68>Menu Area</label68>
+	<label69>Page Num</label69>
+	<PopupMenu_MenuSet>Popup menu Settings</PopupMenu_MenuSet>
+	<PopupMenu_MenuPositionGroup>
+	</PopupMenu_MenuPositionGroup>
+	<PopupMenu_ButtonEffectCheck>No Key Effect</PopupMenu_ButtonEffectCheck>
+	<PopupMenu_ButtonEffectSelect>Select</PopupMenu_ButtonEffectSelect>
+	<PopupMenu_ButtonEffectGroup>Key Effect</PopupMenu_ButtonEffectGroup>
+	<PopupMenu_DataAutoUpLoadCheck>Automatic data upload</PopupMenu_DataAutoUpLoadCheck>
+	<label126>Name</label126>
+	<PopupMenu_MenuPanel>
+	</PopupMenu_MenuPanel>
+	<label127>H</label127>
+	<label128>W</label128>
+	<label129>Y</label129>
+	<label130>X</label130>
+	<PopupMenu_MenuLocationGroup>Location</PopupMenu_MenuLocationGroup>
+	<GBox_MeunDis>Popup menu</GBox_MeunDis>
+	<label94>Unit_Pixels</label94>
+	<label82>VP(0x)</label82>
+	<label83>SP(0x)</label83>
+	<label89>H</label89>
+	<label90>W</label90>
+	<label91>Y</label91>
+	<label92>X</label92>
+	<groupBox22>Location</groupBox22>
+	<label93>Name</label93>
+	<GBox_QR>QR Code</GBox_QR>
+	<KeyReturn_CheckList num0="Write by word" num1="Write High Byte" num2="Write Low Byte" num3="Write Bit">
+	</KeyReturn_CheckList>
+	<Lab_WriteBit>Write Bit 0X</Lab_WriteBit>
+	<panel4>
+	</panel4>
+	<label95>VP(0x)</label95>
+	<groupBox18>
+	</groupBox18>
+	<KeyReturn_KeyValueSet>set</KeyReturn_KeyValueSet>
+	<label96>0x</label96>
+	<KeyReturn_KeyValueGroup>Lose Touch Key Value(0x)</KeyReturn_KeyValueGroup>
+	<groupBox11>Touch Key Value(0x)</groupBox11>
+	<KeyReturn_ButtonChangePageCheck>No page switching</KeyReturn_ButtonChangePageCheck>
+	<KeyReturn_ButtonChangePageSelect>Select</KeyReturn_ButtonChangePageSelect>
+	<KeyReturn_ButtonChangePageGroup>Page Switching</KeyReturn_ButtonChangePageGroup>
+	<KeyReturn_ButtonEffrctCheck>No Key Effect</KeyReturn_ButtonEffrctCheck>
+	<KeyReturn_ButtonEffrctSelect>Select</KeyReturn_ButtonEffrctSelect>
+	<KeyReturn_ButtonEffrctGroup>Key Effect</KeyReturn_ButtonEffrctGroup>
+	<panel5>
+	</panel5>
+	<label97>H</label97>
+	<label98>W</label98>
+	<label99>Y</label99>
+	<label100>X</label100>
+	<groupBox23>Location</groupBox23>
+	<label101>Name</label101>
+	<GBox_KeyReturn>KeyReturn</GBox_KeyReturn>
+	<label81>Use the RTC encoding table and 
+	ASCII characters</label81>
+	<label54>Date Format</label54>
+	<label55>X dot matrix</label55>
+	<label56>Font Lib</label56>
+	<label57>H</label57>
+	<label58>W</label58>
+	<label59>Y</label59>
+	<label60>X</label60>
+	<groupBox13>Location</groupBox13>
+	<label61>Name</label61>
+	<label65>SP(0x)</label65>
+	<label67>Show Color</label67>
+	<GBox_RTC>RTC</GBox_RTC>
+	<label39>Vertical Interval</label39>
+	<label40>Y dot matrix</label40>
+	<label41>FONT1_ID</label41>
+	<TxtDisplay_CharacterNotAdj>Characters need to be set manually	
+	</TxtDisplay_CharacterNotAdj>
+	<label50>Encoding</label50>
+	<TxtDisplay_CodeingMode num0="8bit Encoding" num1="GB2312" num2="GBK" num3="BIG5" num4="SJIS" num5="UNICODE" num6="">
+	</TxtDisplay_CodeingMode>
+	<panel2>
+	</panel2>
+	<label42>H</label42>
+	<label43>W</label43>
+	<label44>Y</label44>
+	<label45>X</label45>
+	<groupBox12>Location</groupBox12>
+	<label46>Name</label46>
+	<label47>X dot matrix</label47>
+	<label48>VP(0x)</label48>
+	<textlen_textdis_lab>Text Length</textlen_textdis_lab>
+	<label49>SP(0x)</label49>
+	<label51>Horizontal Spacing</label51>
+	<label52>Show Color</label52>
+	<label53>Initial Value</label53>
+	<FONT0_ID>FONT0_ID</FONT0_ID>
+	<GBox_TxtDisplay>Text Display</GBox_TxtDisplay>
+	<Iconvar_Mode num0="Transparent" num1="Show Background">
+	</Iconvar_Mode>
+	<label84>Show Mode</label84>
+	<label32>Lower Limit(Min)</label32>
+	<label31>Upper Limit(Max)</label31>
+	<Iconvar_VarMaxPicSelect>Select</Iconvar_VarMaxPicSelect>
+	<label26>Lower icon limit</label26>
+	<Iconvar_VarMinPicSelect>Select</Iconvar_VarMinPicSelect>
+	<label27>Upper icon limit</label27>
+	<Iconvar_IconFile>
+	</Iconvar_IconFile>
+	<label28>Icon File</label28>
+	<label29>Initial Value</label29>
+	<label30>VP(0x)</label30>
+	<label33>SP(0x)</label33>
+	<label34>Name</label34>
+	<label35>H</label35>
+	<label36>W</label36>
+	<label37>Y</label37>
+	<label38>X</label38>
+	<groupBox6>Location</groupBox6>
+	<GBox_IconVar>Icon Var</GBox_IconVar>
+	<label1>Font Lib</label1>
+	<label2>Variable Unit Length </label2>
+	<label3>(Even 6-40)</label3>
+	<label4>Display unit</label4>
+	<label5>H</label5>
+	<label6>W</label6>
+	<label7>Y</label7>
+	<label8>X</label8>
+	<groupBox1>Location</groupBox1>
+	<label9>Name</label9>
+	<label10>Decimal Digits</label10>
+	<label11>VP(0x)</label11>
+	<label12>Integer Digits</label12>
+	<label13>Initial Value</label13>
+	<DataVar_AlignStyle num0="Align Left" num1="Align Right" num2="Center">
+	</DataVar_AlignStyle>
+	<label14>SP(0x)</label14>
+	<label15>Align </label15>
+	<label16>Font Size</label16>
+	<label17>Var Type</label17>
+	<DataVar_VarType num0="Short(2 Bytes)" num1="Int(4 Bytes)" num2="*VP High Byte" num3="*VP Low Byte" num4="Long(8 Bytes)" num5="Ushort(2 Bytes)" num6="Uint(4 Bytes)">
+	</DataVar_VarType>
+	<label18>Show Color</label18>
+	<GBox_DataVar>Data variable display </GBox_DataVar>
+	<ClockDisplay_SecAddButton>
+	</ClockDisplay_SecAddButton>
+	<ClockDisplay_SecCheck>No display seconds</ClockDisplay_SecCheck>
+	<label218>(X,Y)</label218>
+	<label207>Second Icon</label207>
+	<groupBox45>No display Hour</groupBox45>
+	<ClockDisplay_MinuteAddButton>
+	</ClockDisplay_MinuteAddButton>
+	<ClockDisplay_MinuteCheck>No display minute</ClockDisplay_MinuteCheck>
+	<label206>(X,Y)</label206>
+	<label85>Minute Icon</label85>
+	<groupBox44>No display Hour</groupBox44>
+	<ClockDisplay_HourAddButton>
+	</ClockDisplay_HourAddButton>
+	<ClockDisplay_HourCheck>No display Hour</ClockDisplay_HourCheck>
+	<label86>(X,Y)</label86>
+	<label87>Hour Icon</label87>
+	<groupBox42>No display Hour</groupBox42>
+	<label211>The center of the dial of the clock 
+	dial is in the upper left corner of 
+	the coordinate</label211>
+	<ClockDisplay_IconFile>
+	</ClockDisplay_IconFile>
+	<label210>Icon File</label210>
+	<label212>SP(0x)</label212>
+	<panel3>
+	</panel3>
+	<label213>H</label213>
+	<label214>W</label214>
+	<label215>Y</label215>
+	<label216>X</label216>
+	<groupBox36>Location</groupBox36>
+	<label217>Name</label217>
+	<GBox_clock>Clock</GBox_clock>
+	<GBox_PageProperties>PageProperties</GBox_PageProperties>
+	<label19>The key value definition：
+	0x0030-0x0039 (Num 0-9)；
+	0x002E  (decimal point . )
+	0x00F0  (Esc)
+	0x00F1  (Enter)
+	0x00F2  (Backspace)
+
+	</label19>
+	<BaseTouch_KeyValueSetButton>set</BaseTouch_KeyValueSetButton>
+	<label20>0x</label20>
+	<BaseTouch_KeyValueCheck>Custom key</BaseTouch_KeyValueCheck>
+	<groupBox3>Key Value(0x)</groupBox3>
+	<BaseTouch_ButtonChangePageCheckBox>No page switching</BaseTouch_ButtonChangePageCheckBox>
+	<BaseTouch_ButtonChangePageSelect>Select</BaseTouch_ButtonChangePageSelect>
+	<groupBox4>Page Switching</groupBox4>
+	<BaseTouch_ButtonEffectCheckBox>No Key Effect</BaseTouch_ButtonEffectCheckBox>
+	<BaseTouch_ButtonEffectSelect>Select</BaseTouch_ButtonEffectSelect>
+	<BaseTouch_ButtonEffect>Key Effect</BaseTouch_ButtonEffect>
+	<label21>H</label21>
+	<label22>W</label22>
+	<label23>Y</label23>
+	<label24>X</label24>
+	<grouplocation>Location</grouplocation>
+	<label25>Name</label25>
+	<GBox_BaseTouch>basics Touch</GBox_BaseTouch>
+	<groupBox15>Keep pressing(0x)</groupBox15>
+	<ASCII_InputDisMode num0="Normal" num1="Display (*), password input " />
+	<label263>Y dot matrix</label263>
+	<ASCII_KeyBoardPosition num0="Current page" num1="Other pages" />
+    <label254>Key Board Location</label254>
+    <label255>Input process display mode </label255>
+    <ASCII_InputDisplayAreaSet>Set</ASCII_InputDisplayAreaSet>
+    <label257>Input display area </label257>
+    <ASCII_InputStateReturn>Input status return </ASCII_InputStateReturn>
+	<ASCII_InputMode num0="Re entry" num1="Modify text" />
+    <ASCII_CursorColor num0="black" num1="white" />
+    <ASCII_KeyboardShowLocationSet>Set</ASCII_KeyboardShowLocationSet>
+    <label258>Display position </label258>
+    <label259>Keyboard area </label259>
+    <label260>Page ID</label260>
+    <ASCII_KeyBoardSet>keyboard setting up</ASCII_KeyBoardSet>
+    <label261>Cursor color</label261>
+    <label266>Text color</label266>
+    <label267>X dot matrix</label267>
+    <label268>Font ID</label268>
+    <label269>Input Mode</label269>
+    <label270>Text Length</label270>
+    <label271>VP(0x)</label271>
+    <ASCII_PageChangeCheck>No page switching</ASCII_PageChangeCheck>
+    <ASCII_PageChangeSelect>Select</ASCII_PageChangeSelect>
+    <groupBox19>Page Switch</groupBox19>
+    <ASCII_ButtonEffectCheck>No button effect </ASCII_ButtonEffectCheck>
+    <ASCII_ButtonEffectSelect>Select</ASCII_ButtonEffectSelect>
+    <groupBox34>Button Effect</groupBox34>
+    <ASCII_DataAutoUpload>Data Auto Upload</ASCII_DataAutoUpload>
+    <label272>Name</label272>
+    <label273>H</label273>
+    <label274>W</label274>
+    <label275>Y</label275>
+    <label276>X</label276>
+    <groupBox35>Location</groupBox35>
+    <GBox_ASCII>ASCII Input</GBox_ASCII>
+    <GBK_PinyinDisplayPointSet>Set</GBK_PinyinDisplayPointSet>
+	<GBK_KeyBoardPosition num0="Current page" num1="Other pages" />
+    <label232>KeyBoard Position</label232>
+    <label231>Pinyin position </label231>
+    <label234>Display spacing </label234>
+    <GBK_InputDisplayAreaSet>Set</GBK_InputDisplayAreaSet>
+    <label233>Input display area </label233>
+    <GBK_InputStateReturn>Input status return </GBK_InputStateReturn>
+	<GBK_InputMode num0="Re entry" num1="Modify text" />
+    <GBK_CursorColor num0="black" num1="white" />
+    <GBK_DispalyMode num0="Pinyin  on the top" num1="Pinyin  on the left" />
+    <GBK_KeyboardShowLocationSet>Set</GBK_KeyboardShowLocationSet>
+    <label235>Display position </label235>
+    <label236>Keyboard area</label236>
+    <label237>Page location</label237>
+    <GBK_KeyBoardSet>keyboard setting up</GBK_KeyBoardSet>
+    <label238>Cursor color</label238>
+    <label239>Display mode </label239>
+    <label240>Text color</label240>
+    <label241>Dot matrix size </label241>
+    <label242>Input process display font lib</label242>
+    <label243>Text color</label243>
+    <label244>Dot matrix size </label244>
+    <label245>Display font lib</label245>
+    <label246>Input mode </label246>
+    <label247>Text length </label247>
+    <label248>VP(0x)</label248>
+    <GBK_PageChangeCheck>No Page Switch</GBK_PageChangeCheck>
+    <GBK_PageChangeSelect>Set</GBK_PageChangeSelect>
+    <groupBox21>Page Switch</groupBox21>
+    <GBK_ButtonEffectCheck>No Button Effect</GBK_ButtonEffectCheck>
+    <GBK_ButtonEffectSelect>Select</GBK_ButtonEffectSelect>
+    <groupBox32>Button Effect</groupBox32>
+    <GBK_DataAutoUpload>Data Auto Upload</GBK_DataAutoUpload>
+    <label249>Name</label249>
+    <label250>H</label250>
+    <label251>W</label251>
+    <label252>Y</label252>
+    <label253>X</label253>
+    <groupBox33>Location</groupBox33>
+    <GBox_GBK>GBK Input</GBox_GBK>
+	<label282>Font Size</label282>
+    <label256>Font Lib</label256>
+    <RTCset_Locationset>set</RTCset_Locationset>
+    <RTCset_CursorColor num0="black" num1="white" />
+    <RTCset_KeyboardPointaSet>Set</RTCset_KeyboardPointaSet>
+    <label277>Display  Location</label277>
+    <label278>KeyBoard Area</label278>
+    <label279>Page ID</label279>
+    <RTCset_KeyBoardSet>KeyBoard Set</RTCset_KeyBoardSet>
+    <label280>Cursor Color</label280>
+    <label281>Font Color</label281>
+    <label286>Display Area</label286>
+    <RTCset_ButtonEffectSelect>Select</RTCset_ButtonEffectSelect>
+    <groupBox48>Button Effect</groupBox48>
+    <RTCset_DataAutoUpload>Data Auto UpLoad</RTCset_DataAutoUpload>
+    <label287>Name</label287>
+    <label288>H</label288>
+    <label289>W</label289>
+    <label290>Y</label290>
+    <label291>X</label291>
+    <groupBox49>Location</groupBox49>
+    <GBox_RTCset>Set RTC</GBox_RTCset>
+    <label262>Name</label262>
+    <TouchState_ContinueMode num0="0x00" num1="0x01" num2="0x02" num3="0x03" />
+    <label220>Data Length</label220>
+    <label226>VP2T(0x)</label226>
+    <label227>VP2S(0x)</label227>
+    <label228>Mode</label228>
+    <groupBox7>TP_ON_Continue_Mode</groupBox7>
+    <TouchState_LoseMode num0="0x00" num1="0x01" num2="0x02" num3="0x03" />
+    <label174>Data Length</label174>
+    <label208>VP3T(0x)</label208>
+    <label209>VP3S(0x)</label209>
+    <label219>Mode</label219>
+    <groupBox5>TP_OFF_Mode</groupBox5>
+    <TouchState_FirstMode num0="0x00" num1="0x01" num2="0x02" num3="0x03" />
+    <label172>Data Length</label172>
+    <label170>VP1T(0x)</label170>
+    <label159>VP1S(0x)</label159>
+    <label88>Mode</label88>
+    <groupBox8>TP_ON_Mode</groupBox8>
+    <TouchState_PageChangeCheck>No page switching</TouchState_PageChangeCheck>
+    <TouchState_PageSwitchSet>Selest</TouchState_PageSwitchSet>
+    <groupBox2>Page Switching</groupBox2>
+    <label225>Name</label225>
+    <TouchState_ButtonEffectCheck>No Key Effect</TouchState_ButtonEffectCheck>
+    <TouchState_ButtonEffectSet>Select</TouchState_ButtonEffectSet>
+    <groupBox10>Key Effect</groupBox10>
+	<label221>H</label221>
+    <label222>W</label222>
+    <label223>Y</label223>
+    <label224>X</label224>
+    <groupBox9>Location</groupBox9>
+    <GBox_TouchState>Touch State</GBox_TouchState>
+	<label285>Drawing instructions using line segments
+0x02,0x03,0x09,0x0A
+Line segments will be displayed using dotted 
+lines 
+</label285>
+    <label265>(1-255)</label265>
+    <label283>(1-255)</label283>
+    <label264>(1-255)</label264>
+    <label284>(1-255)</label284>
+    <groupBox16>Set the dotted line format </groupBox16>
+    <label301>VP(0x)</label301>
+    <label300>SP(0x)</label300>
+	<BasicGra_DashedLine>dotted line</BasicGra_DashedLine>
+    <label295>Name</label295>
+    <label296>H</label296>
+    <label297>W</label297>
+    <label298>Y</label298>
+    <label299>X</label299>
+    <groupBox51>Location</groupBox51>
+    <GBox_BasicGra>Basic Graphic</GBox_BasicGra>
+  </Touch_Form>
+  <Images_Form name="Images">
+    <But_AddPic>Add</But_AddPic>
+    <toolStripButton2>Up</toolStripButton2>
+    <toolStripButton3>Down</toolStripButton3>
+	<toolStripDropDownButton1>Delete</toolStripDropDownButton1>
+	<删除选中项ToolStripMenuItem>Delete Choices</删除选中项ToolStripMenuItem>
+	<删除全部ToolStripMenuItem>Delete All</删除全部ToolStripMenuItem>
+	<DGV_PictureList Location="Location" Image="Images">
+	</DGV_PictureList>
+  </Images_Form>
+  <HardWare_Form name="Serial screen hardware settings">
+    <FCRC_1>Enable serial port communication CRC16 frame check</FCRC_1>
+    <FCRC_0>Disable serial port communication CRC16 frame check</FCRC_0>
+    <groupBox6>FCRC</groupBox6>
+    <运行周期_3>80ms</运行周期_3>
+    <运行周期_2>120ms</运行周期_2>
+    <运行周期_0>200ms</运行周期_0>
+    <运行周期_1>160ms</运行周期_1>
+    <groupBox7>Run Cycle</groupBox7>
+    <L22_Init_En_1>The initialization is determined by the font library file 22 (0x16)</L22_Init_En_1>
+    <L22_Init_En_0>The 56KB variable register is initialized to 0X00</L22_Init_En_0>
+    <groupBox8>L22_Init_En</groupBox8>
+    <VDS_1>Deflection of 90°</VDS_1>
+    <VDS_0>normal display</VDS_0>
+    <groupBox1>VDS</groupBox1>
+    <TPSAUTO_1>The touch screen entry parameters are automatically uploaded to the serial port</TPSAUTO_1>
+    <TPSAUTO_0>Touch screen entry parameters not automatically uploaded</TPSAUTO_0>
+    <groupBox9>TPSAUTO</groupBox9>
+    <HDS_1>Deflection of 180°</HDS_1>
+    <HDS_0>normal display</HDS_0>
+    <groupBox4>HDS</groupBox4>
+    <TP_LED_1>Backlight is controlled by touch screen</TP_LED_1>
+    <TP_LED_0>Backlight is not controlled by touch screen</TP_LED_0>
+    <groupBox5>TP_LED</groupBox5>
+    <groupBox10>SYS_CFG configuration (R2)</groupBox10>
+    <button1>Confirm</button1>
+    <label11>(0x00-0x40)</label11>
+    <label12>R7(Close the brightness)0x</label12>
+    <label10>(0x00-0xFF)</label10>
+    <label9>(0x00-0x40)</label9>
+    <label7>R8(Light up time ×1.Num0 sec)0x</label7>
+    <label8>R6(Light brightness)0x</label8>
+    <groupBox3>Contact backlight setting</groupBox3>
+    <label6>R9(Low byte)0x</label6>
+    <label5>R5(High byte)0x</label5>
+    <groupBox2>Custom baud rate</groupBox2>
+    <label4>(0x00-0xFF)</label4>
+    <label3>RA(Serial frame low byte)0x</label3>
+    <label2>(0x00-0xFF)</label2>
+    <label1>R3(Serial port frame high byte)0x</label1>
+    <label64>R1(Serial port rate)</label64>
+  </HardWare_Form>
+  <Language_Form name = "Language Setting">
+    <label1>Language:</label1>
+    <button1>Apply</button1>
+  </Language_Form>
+  <New_Setting name="project properties">
+    <label1>Resolution</label1>
+    <But_Confirm>Confirm</But_Confirm>
+    <groupBox2>Storage Path</groupBox2>
+    <groupBox1>Graphic Attributes</groupBox1>
+	<label3>Project Name：</label3>
+	<label2>Project Path：</label2>
+  </New_Setting>
+  <Welcome name="Welcome to TGUS">
+	<New_Project>new project</New_Project>
+	<Open_Project>open project</Open_Project>
+	<linkLabel3>history</linkLabel3>
+	<skinGroupBox1>Project Management</skinGroupBox1>
+  </Welcome>
+   <Screen_Attribute name="Screen_Attribute">
+    <label2>Screen Pixel</label2>
+    <label1>Screen Size</label1>
+    <groupBox1>Screen Attribute</groupBox1>
+  </Screen_Attribute>
+  <Display name="Touch control and variable configuration ">
+  </Display>
+  <ImageConvert>
+	<打开OToolStripButton>Open</打开OToolStripButton>
+	<保存SToolStripButton>Save</保存SToolStripButton>
+	<开始转换toolStripButton1>Start conversion</开始转换toolStripButton1>
+	<toolStripButton2>Clear the list</toolStripButton2>
+	<LAB_ICO_Trans>Xform</LAB_ICO_Trans>
+	<Com_TransItem Item0="RotateNoneFlipNone" Item1="Rotate180FlipNone" Item2="Rotate270FlipNone" Item3="Rotate90FlipNone" Item4="RotateNoneFlipX" Item5="RotateNoneFlipY">
+	</Com_TransItem>
+	<skinListView1 filename="Filename" extension_name="Type" date="Date" size="Size" state="State">
+	</skinListView1>
+  </ImageConvert>
+</TGUS>

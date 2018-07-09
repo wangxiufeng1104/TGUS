@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Type ID="ZH-CN">
+    <Name>简体中文</Name>
+    <File>ZH_CN.xml</File>
+  </Type> 
+  <Type ID="US-EN">
+    <Name>English</Name>
+    <File>US_EN.xml</File>
+  </Type>
+</root>
